@@ -14,4 +14,4 @@
 .scss-cache
 *.css.map
 node_modules
-bower
+bower_components
