@@ -1,0 +1,31 @@
+//general style
+html, body, .page-content{
+	height: 100%;
+}
+body{
+	font-size:16px;
+}
+h5{
+	font-size: 1em;
+	margin: 0;
+	margin-bottom: 0.5em;
+	font-weight: bolder;
+}
+p{
+	font-size: 15px;
+}
+.gap{
+	margin: 10px 0;
+}
+.gap-2{
+	margin: 20px 0;
+}
+.content{
+	margin-top:90px;
+}
+.orange{
+	color:$orange;
+}
+.divider{
+	border-bottom: 1px solid rgba(0,0,0,0.12);
+}

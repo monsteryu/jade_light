@@ -1,0 +1,23 @@
+{
+  "name": "jade_light_template",
+  "version": "0.0.0",
+  "homepage": "https://github.com/monsteryu/jade_light",
+  "authors": [
+    "monsteryu <maowei.yu@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap-sass": "~3.3.6"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "globals": {
+    "hello": "hello world"
+  }
+}

@@ -1,0 +1,14 @@
+mixin backbtn(title)
+	header.mdl-layout__header
+			div.mdl-layout__header-row
+				div.mdl-button.mdl-js-button.mdl-js-ripple-effect.mdl-button--icon.mdl-btn__back.mdl-js-button__back(href="index.html", title="go back", role="button", data-upgraded=",MaterialButton,MaterialRipple")
+					i.material-icons(role="presentation") arrow_back
+					span.mdl-button__ripple-container
+						span.mdl-ripple
+				//title
+				span.mdl-layout-title=title
+				//Add spacer, to align navigation to the right
+				div.mdl-layout-spacer
+				//Navigation. We hide it in small screens.
+				//nav.mdl-navigation.mdl-layout--large-screen-only
+					a.mdl-navigation__link(href="") link

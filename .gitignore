@@ -1,0 +1,17 @@
+# Created by https://www.gitignore.io
+
+### CodeIgniter ###
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
+*/cache/!.htaccess
+
+
+### Sass ###
+.sass-cache
+.scss-cache
+*.css.map
+node_modules
+bower

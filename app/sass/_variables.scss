@@ -1,0 +1,45 @@
+$yellow: #FFC107;
+$white: #ffffff;
+$gray-dark: #313131;
+$gray-light: rgba(0,0,0,0.54);
+$gray-cardbg: #fafafa;
+$orange: #F78052;
+
+
+@mixin gradient-y(){
+	background: #ffc107; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffc107 0%, #ffb300 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffc107), color-stop(100%,#ffb300)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffc107 0%,#ffb300 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffc107 0%,#ffb300 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffc107 0%,#ffb300 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffc107 0%,#ffb300 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc107', endColorstr='#ffb300',GradientType=0 ); /* IE6-9 */
+}
+@mixin transition($time:500ms){
+	-webkit-transition: all  ease-out $time;
+    -moz-transition: all  ease-out $time;
+    -o-transition: all  ease-out $time;
+    transition: all  ease-out $time;
+}
+@mixin delay($time:300ms){
+	 transition-delay: $time; 
+}
+@mixin shadow($blur:2px){
+	-webkit-box-shadow: 0px 1px $blur 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:    0px 1px $blur 0px rgba(0, 0, 0, 0.1);
+	box-shadow:         0px 1px $blur 0px rgba(0, 0, 0, 0.1);
+}
+@mixin trasform($size:0.98){
+	-webkit-transform: scale($size,$size);
+	-moz-transform:    scale($size,$size);
+	-ms-transform:     scale($size,$size);
+	-o-transform:      scale($size,$size);
+	transform:         scale($size,$size);
+}
+@mixin rotate($deg:180deg){
+	transform:rotate($deg);
+	-ms-transform:rotate($deg); /* IE 9 */
+	-webkit-transform:rotate($deg);
+}
+
